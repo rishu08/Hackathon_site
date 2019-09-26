@@ -31,6 +31,7 @@ html, body {
       white-space: nowrap;
       overflow: hidden;
       transform: translateY(-50%);
+      color:#00ff00;
 }
 
 .anim-typewriter {
@@ -99,7 +100,7 @@ nav #brand {
 }
 
 nav #brand a {
-      color: #fff;
+      color: #00ff00;
       transition: all 0.3s ease-out;
 }
 
@@ -255,7 +256,7 @@ nav #menu li a:hover {
       text-align: center;
       letter-spacing: -2px;
       line-height: 80px;
-      font-size: 100px
+      font-size: 100px;
 }
 
 @media(max-width: 768px) {
