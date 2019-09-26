@@ -37,6 +37,10 @@ html, body {
       animation: typewriter 4s steps(40) 1s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
 }
+.anim-typewriter1 {
+      animation: typewriter1 4s steps(40) 1s 1 normal both,
+      blinkTextCussor 500ms steps(40) infinite normal;
+}
 
 @keyframes typewriter {
       from {
@@ -46,6 +50,16 @@ html, body {
             width: 18em;
       }
 }
+
+@keyframes typewriter1 {
+      from {
+            width: 0;
+      }
+      to {
+            width: 18em;
+      }
+}
+
 
 @media(max-width: 768px) {
       @keyframes typewriter {
