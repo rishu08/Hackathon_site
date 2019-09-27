@@ -89,7 +89,7 @@ nav {
       height: 80px;
       position: fixed;
       z-index: 1;
-      border-shadow:0 0 10px 0 rgba(00,255,00,.64);
+      box-shadow:0 0 10px 0 rgba(00,255,00,.64);
 }
 
 nav #brand {
