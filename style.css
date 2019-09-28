@@ -39,10 +39,13 @@ html, body {
       blinkTextCussor 500ms steps(40) infinite normal;
 }
 .anim-typewriter1 {
-      animation: typewriter1 4s steps(40) 1s 1 normal both,
+      animation: typewriter1 4s steps(40) 5s 1 normal both,
       blinkTextCussor 500ms steps(40) infinite normal;
 }
-
+.anim-typewriter2 {
+      animation: typewriter2 2s steps(30) 9s 1 normal both,
+      blinkTextCussor 500ms steps(40) infinite normal;
+}
 @keyframes typewriter {
       from {
             width: 0;
@@ -61,14 +64,39 @@ html, body {
       }
 }
 
+@keyframes typewriter2 {
+      from {
+            width: 0;
+      }
+      to {
+            width: 9em;
+      }
+}
 
 @media(max-width: 768px) {
+     
       @keyframes typewriter {
             from {
                   width: 0;
             }
             to {
-                  width: 17em;
+                  width: 9em;
+            }
+      }
+      @keyframes typewriter1 {
+            from {
+                  width: 0;
+            }
+            to {
+                  width: 18em;
+            }
+      }
+      @keyframes typewriter2 {
+            from {
+                  width: 0;
+            }
+            to {
+                  width: 8em;
             }
       }
 }
@@ -81,7 +109,16 @@ html, body {
             border-right-color: transparent;
       }
 }
-
+@media(max-width: 768px) {
+      .attraction
+      {
+            flex-direction: column;
+      }
+}
+h1,h2,h3,h4,h5,h6
+{
+      text-align: center;
+}
 /*--------------- navigation --------------- */
 nav {
       width: 100%;
@@ -256,13 +293,22 @@ nav #menu li a:hover {
       font-weight: lighter;
       text-align: center;
       letter-spacing: -2px;
-      line-height: 80px;
+      /* line-height: 80px; */
       font-size: 100px;
 }
 
 @media(max-width: 768px) {
       .header h1 {
-            font-size: 26px;
+            font-size: 44px;
+            font-weight: 500;
+      }
+      .header h4
+      {
+            font-size: 20px;
+            font-weight: 400;
+            max-width: ;
+            max-height: 50px;
+            word-wrap: break-word;
       }
 }
 
