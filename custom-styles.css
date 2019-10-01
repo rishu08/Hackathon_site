@@ -53,7 +53,7 @@ h3::after
 body{
     overflow-x: hidden;
 }
-nav,#resize,#schedule{
+nav,.wrapper,#resize,#schedule{
     width: 100vw;
 }
 .flip-card
