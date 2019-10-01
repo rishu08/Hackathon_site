@@ -51,7 +51,7 @@ html, body {
             width: 0;
       }
       to {
-            width: 9em;
+            width: 8.79em;
       }
 }
 
@@ -80,7 +80,7 @@ html, body {
                   width: 0;
             }
             to {
-                  width: 9em;
+                  width: 8.79em;
             }
       }
       @keyframes typewriter1 {
