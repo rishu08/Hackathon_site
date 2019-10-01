@@ -351,6 +351,7 @@ nav #menu li a:hover {
 .hero header
 {
       height: 50vh;
+      width: 100vw;
 }
 .hero h1 {
       font-weight: lighter;
