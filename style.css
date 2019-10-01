@@ -348,11 +348,10 @@ nav #menu li a:hover {
       align-items: center;
       justify-content: center;
 }
-.hero header
+/* .header
 {
-      height: 50vh;
-      width: 100vw;
-}
+      width: 100%;
+} */
 .hero h1 {
       font-weight: lighter;
       text-align: center;
