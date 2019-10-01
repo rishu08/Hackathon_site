@@ -7,7 +7,7 @@
       <meta name="author" content="harrnish">
 
       <title>Code-a-thon</title>
-
+      <script src="jquery-3.4.1.js"></script>
       <!-- stylesheet -->
       <link rel="stylesheet" href="style.css">
 
@@ -32,6 +32,21 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
       <link rel="stylesheet" href="custom-styles.css">
+      
+      <!-- Countdown Timer -->
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+      <script type="text/javascript" src="TimeCircles.js"></script>
+      <link href="TimeCircles.css" rel="stylesheet">
+      <script>
+      $(".countDown").TimeCircles(); 
+      console.log($())
+      </script>
+      <script src="jquery.countdown-2.1.0/"></script>
+      <script type="text/javascript">
+        $('#countDown').countdown('2015/01/01', function(event) {
+          $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+        });
+      </script>
 
 </head>
 <body>
@@ -79,7 +94,9 @@
                         <h4 class="line anim-typewriter1">@ABES INSTITUTE OF TECHNOLOGY</h4><br>
                         <h4 class="line anim-typewriter2">   28-29 OCTOBER</h4>
                   </div>
+                  <!-- <div id="countDown"  style="width: 70vw;height: 200px;background-color: white;"></div> -->
             </div>  
+
 
             <div class="scroll-down"></div>
             <!--------------- hero section ends here --------------->
