@@ -74,7 +74,7 @@ html, body {
 }
 
 @media(max-width: 768px) {
-     
+
       @keyframes typewriter {
             from {
                   width: 0;
@@ -286,10 +286,13 @@ nav #menu li a:hover {
 
 .flip-card {
   background-color: transparent;
-  width: 300px;
-  height: 400px;
+  width: 360px;
+  height: 360px;
 /*  border: 1px solid #f1f1f1;*/
-  perspective: 1000px; 
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flip-card-inner {
@@ -390,11 +393,24 @@ nav #menu li a:hover {
 }
 /*************Shedule Section****************/
 
+#schedule
+{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  position: relative;
-  max-width: 300px;
-  margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      max-width: 300px;
+      /* background-color: aqua; */
+  /* margin: 0 auto; */
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -488,14 +504,14 @@ nav #menu li a:hover {
   .timeline::after {
   left: 31px;
   }
-  
+
   /* Full-width containers */
   .container {
   width: 100%;
   padding-left: 70px;
   padding-right: 25px;
   }
-  
+
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
   left: 60px;
@@ -508,13 +524,38 @@ nav #menu li a:hover {
   .left::after, .right::after {
   left: 15px;
   }
-  
+
   /* Make all right containers behave like the left ones */
   .right {
   left: 0%;
   }
 }
-
+@media(max-width:768px)
+{
+      .left::before
+      {
+            top:0;
+            left: 60%;
+            /* background-color: #00ff00; */
+      }
+      .left
+      {
+            /* background-color: aqua; */
+            padding: 0;
+      }
+      .content
+      {
+            left:-40px;
+            top:0;
+            padding: 0;
+            position: relative;
+            margin: 0;
+      }
+      .timeline
+      {
+            left:85px;
+      }
+}
 /************** Shedule section ends here ****************/
 
 
