@@ -47,7 +47,11 @@
           $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
         });
       </script>
-
+      <link rel="stylesheet" href="timeline.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
       <div class="wrapper">
@@ -231,204 +235,68 @@
                     
                     <h3> SCHEDULE </h3>
                     <br><br>
-                    
-                    <div class="timeline">
-                      <div class="container left">
-                        <div class="content">
-                          <h2>9AM</h2>
-                          <p style="display: flex;justify-content: center">Opening Ceremony</p>
-                        </div>
+                    <div class="container ">
+                      <div class="row timeline-row">
+                              <div class="col-12 timeline" style="color:black;text-align:center;">
+                                  <ul>
+                                      <li>
+                                          <div class="content">
+                                              <h3>9 AM</h3>
+                                              <p>Opening Ceremony</p>
+                                          </div>
+                                      </li>
+                                      <li>
+                                          <div class="content">
+                                                  <h3>11 AM</h3>
+                                                  <p>Theme Disclosure</p>
+                                                </div>
+                                      </li>
+                                      <li>
+                                          <div class="content">
+                                                  <h3>1 PM</h3>
+                                                  <p>Hacking Begins</p>
+                                                </div>
+                                      </li>
+                                      <li>
+                                          <div class="content">
+                                                  <h3>2 PM</h3>
+                                                  <p>Lunch</p>
+                                                </div>
+                                      </li>
+                                      <li>
+                                        <div class="content">
+                                                <h3>6 PM</h3>
+                                                <p>1st Judgement Round</p>
+                                              </div>
+                                    </li>
+                                    <li>
+                                      <div class="content">
+                                              <h3>8 PM</h3>
+                                              <p>Dinner</p>
+                                            </div>
+                                  </li>
+                                  <li>
+                                    <div class="content">
+                                            <h3>11 AM</h3>
+                                              <p>Hacking Ends</p>
+                                          </div>
+                                </li>
+                                <li>
+                                  <div class="content">
+                                          <h3>12 PM</h3>
+                                          <p>Result Declaration</p>
+                                        </div>
+                              </li>
+                                      <div style="clear: both;"></div>
+                                  </ul>
+                              </div>
                       </div>
-                      <div class="container right">
-                        <div class="content">
-                          <h2>11AM</h2>
-                          <p style="display: flex;justify-content: center">Theme Disclose</p>
-                        </div>
-                      </div>
-                        <div class="container left">
-                        <div class="content">
-                          <h2>1PM</h2>
-                          <p style="display: flex;justify-content: center">Hacking Begins</p>
-                        </div>
-                      </div>
-                        <div class="container right">
-                        <div class="content">
-                          <h2>2PM</h2>
-                          <p style="display: flex;justify-content: center">Lunch </p>
-                        </div>
-                      </div>
-                         <div class="container left">
-                        <div class="content">
-                          <h2>6PM</h2>
-                          <p style="display: flex;justify-content: center">1st Judgement round</p>
-                        </div>
-                      </div>
-                        <div class="container right">
-                        <div class="content">
-                          <h2>8PM</h2>
-                          <p style="display: flex;justify-content: center">Dinner </p>
-                        </div>
-                      </div>
-                         <div class="container left">
-                        <div class="content">
-                          <h2>11AM</h2>
-                          <p style="display: flex;justify-content: center">Hacking Ends</p>
-                        </div>
-                      </div>
-                        <div class="container right">
-                        <div class="content">
-                          <h2>12AM</h2>
-                          <p style="display: flex;justify-content: center">Result Declearation </p>
-                        </div>
-                      </div>
-                    </div>
+                  </div>
+                   
                 </div>
                 
                 
-<!--
-                <br><br><br>
-                <div style="display: flex;justify-content: center">
-                <div class="card-deck" style="width: 80%;align-content: center;display: flex;justify-content: space-between">
-                  <div class="card">
-                    <img src="prize.png" height="80px" width="80px"alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: black">Cash Prize</h5>
-                      </div>
-                  </div>
-                  <div class="card">
-                    <img src="swag.png" class="card-img-top p-5" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: black">Swags</h5>
-                     </div>
-                  </div>
-                  <div class="card">
-                    <img src="hackathon.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: black">24Hr Hackathon</h5>
-                     </div>
-                  </div>
-                    
-                  <div class="card">
-                    <img src="snacks.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title" style="color: black">Free Snacks</h5>
-                     </div>
-                  </div>
-                </div>
-                </div>
-            </div>
-            
--->
 
-
-
-            <!--------------- projects section starts here --------------->
-<!--
-            <div class="container-fluid">
-                  <br><br><br>
-
-                  <h3> THEME </h3>
-
-                  <div class="vertical"></div>
-                  <br>
-
-                  <div class="whitespace"></div>
-                  <div class="whitespace"></div>
-
-                  <div class="row">
-                        <div class="col-lg-8"></div>
-
-                        <div class="col-lg-4 project project1 wow fadeInUp" onclick="location.href='project.html'"></div>
-                  </div>
-
-                  <div class="whitespace"></div>
-
-                  <div class="row">
-                        <div class="col-lg-6 project project2 wow fadeInUp" onclick="location.href='project.html'"></div>
-
-                        <div class="col-lg-6"></div>
-                  </div>
-
-                  <div class="whitespace"></div>
-
-                  <div class="row">
-                        <div class="col-lg-7"></div>
-
-                        <div class="col-lg-4 project project3 wow fadeInUp" onclick="location.href='project.html'"></div>
-
-                        <div class="col-lg-1"></div>
-                  </div>
-
-                  <div class="whitespace"></div>
-
-                  <div class="row">
-                        <div class="col-lg-1"></div>
-
-                        <div class="col-lg-5 project project4 wow fadeInUp" onclick="location.href='project.html'"></div>
-
-                        <div class="col-lg-6"></div>
-                  </div>
-
-                  <div class="whitespace"></div>
-            </div>
--->
-            <!--------------- projects section ends here --------------->
-
-
-
-            <!--------------- footer starts here --------------->
-<!--
-            <div class="footer">
-                  <div class="container">
-                        <br><br>
-
-                        <div class="collab">
-                              <div class="row">
-                                    <div class="col-lg-12">
-                                          <p class="wow fadeInUp">Got an interesting project? I can help you.</p>
-                                    </div>
-                              </div>
-                        </div>
-
-                        <br>
-
-                        <div class="hr">
-                              <div class="row"></div>
-                        </div>
-
-                        <br><br>
-
-                        <div class="info">
-                              <div class="row">
-                                    <div class="col-lg-4" id="personal">
-                                          <p class="wow fadeInUp">connect with me</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">ig @harrnish</h4>
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-lg-4" id="media">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">follow me</p>
-
-                                          <ul>
-                                                <li id="fb" class="wow fadeInUp" data-wow-delay="0.4s">fb</li>
-                                                <li id="ig" class="wow fadeInUp" data-wow-delay="0.6s">ig</li>
-                                                <li id="tw" class="wow fadeInUp" data-wow-delay="0.8s">tw</li>
-                                                <li id="yt" class="wow fadeInUp" data-wow-delay="1s">yt</li>
-                                          </ul>
-
-                                          <br><br>
-                                    </div>
-
-                                    <div class="col-lg-4" id="address">
-                                          <p class="wow fadeInUp" data-wow-delay="0s">say hello</p>
-                                          <h4 class="wow fadeInUp" data-wow-delay="0.2s">harrnish@gmail.com</h4>
-                                          <br><br>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
--->
             <!--------------- footer ends here --------------->
 
             <br><br><br><br>
