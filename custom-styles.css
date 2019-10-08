@@ -16,6 +16,7 @@ h3::after
       background-color: greenyellow;
       width:50%;
       height: 1px;
+      margin-top: 0.4em;
 }
 .about-div
 {
