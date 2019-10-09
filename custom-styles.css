@@ -27,7 +27,7 @@ h3::after
 }
 .about-div > p{
     width: 80vw;
-    box-shadow: rgba(173,255,47,0.5);
+    box-shadow: 10px 10px 10px 5px rgba(173,255,47,0.5);
 }
 #theme
 {
